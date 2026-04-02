@@ -90,7 +90,7 @@ export default {
       '- verdict (must be: "Correct", "Not quite right", or "Incorrect")\n' +
       "- summary (1–3 sentences, must reference the objective or criteria)\n" +
       '- criteria_feedback (array of objects: { "criterion": string, "met": boolean, "comment": string })\n' +
-      '- next_step (one concrete improvement suggestion)\n';
+      '- next_step (one concrete improvement suggestion using beginner-level Japanese vocabulary and only very basic Kanji)\n';
 
     // ----- OpenAI Responses API call -----
     const openaiResp = await fetch("https://api.openai.com/v1/responses", {
