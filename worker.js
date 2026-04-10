@@ -98,12 +98,22 @@ export default {
 "- Place that sentence ONLY in the field `perhaps_you_meant`.\n" +
 "- Use natural, beginner-level Japanese.\n\n" +
 
-"Step 4 (criteria feedback):\n" +
+"Step 4 (revision-aware feedback):\n" +
+"- If a revision_context is provided:\n" +
+"- Review the learner’s previous attempt(s) and the feedback already given.\n" +
+"- Check whether the learner fixed problems mentioned previously.\n" +
+"- If a previously mentioned problem is fixed, briefly acknowledge the improvement.\n" +
+"- Do NOT repeat the same explanation if the learner already fixed it.\n" +
+"- Focus feedback on remaining or new issues.\n" +
+"- If all previously mentioned issues are fixed, mark all criteria as met and set verdict to \"Correct\".\n\n" +
+"When the learner improves compared to a previous attempt, acknowledge it briefly (for example: \"You fixed the particle issue from before. Good job!\").\n\n"
+
+"Step 5 (criteria feedback):\n" +
 "- Provide feedback for each criteria.\n" +
 "- Each criterion must appear once.\n" +
 "- Do NOT repeat the \"perhaps you meant\" sentence here.\n\n" +
 
-"Step 5 (next steps):\n" +
+"Step 6 (next steps):\n" +
 "- Suggest ONE concrete revision action.\n\n" +
 
 "Output rules:\n" +
@@ -167,6 +177,7 @@ export default {
     const userPrompt =
       `Learning objective:\n${learningObjective}\n\n` +
       `Evaluation criteria:\n${criteria.map((c, i) => `${i + 1}. ${c}`).join("\n")}\n\n` +
+      `Revision history (if any):\n${JSON.stringify(body.revision_context ?? [], null, 2)}\n\n` +
       `Learner response:\n${responseText}\n\n` +
       "Your output MUST be ONLY JSON with exactly these keys:\n" +
 '- verdict (must be: "Correct", "Not quite right", or "Incorrect")\n' +
