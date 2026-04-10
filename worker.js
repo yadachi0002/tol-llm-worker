@@ -102,7 +102,6 @@ export default {
 "- If a revision_context is provided:\n" +
 "- Review the learner’s previous attempt(s) and the feedback already given.\n" +
 "- Check whether the learner fixed problems mentioned previously.\n" +
-"- If a previously mentioned problem is fixed, briefly acknowledge the improvement.\n" +
 "- Do NOT repeat the same explanation if the learner already fixed it.\n" +
 "- Focus feedback on remaining or new issues.\n" +
 "- If all previously mentioned issues are fixed, mark all criteria as met and set verdict to \"Correct\".\n" +
