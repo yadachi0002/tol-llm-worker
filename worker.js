@@ -94,7 +94,7 @@ export default {
 "- If ONE OR MORE criteria are not met, verdict MUST be \"Not quite right\" or \"Incorrect\".\n\n" +
 
 "Step 3 (Perhaps-you-meant sentence):\n" +
-"- If verdict is NOT \"Correct\", generate ONE sentence the learner was probably trying to say.\n" +
+"- If verdict is NOT \"Correct\", generate ONE sentence the learner was probably trying to say using correct grammar and vocabulary.\n" +
 "- Place that sentence ONLY in the field `perhaps_you_meant`.\n" +
 "- Use natural, beginner-level Japanese.\n\n" +
 
