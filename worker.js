@@ -84,7 +84,7 @@ export default {
 "You MUST evaluate learner input using the following procedure:\n\n" +
 
 "Step 1: Evaluate the learner sentence using ALL FOUR criteria:\n" +
-"  1) The reason clearly and logically connects to the situation.\n" +
+"  1) The reason marker から is used appropriately. The reason is marked with から, followed by the situation.\n" +
 "  2) Verbs and adjectives are conjugated correctly in the です／ます form.\n" +
 "  3) Vocabulary usage is correct.\n" + 
 "  4) Particle usage is correct.\n\n" +
@@ -132,7 +132,7 @@ export default {
 "Input: 先生がすきですから、やさしいです。\n" +
 "verdict: Not quite right\n" +
 "perhaps_you_meant: 先生はやさしいですから、すきです。\n" +
-"'I like the teacher' is not a clear and logical reason for 'The teacher is kind'. If you wanted to say 'Because the teacher is kind, I like them' you would say 先生はやさしいですから、すきです。\n" +
+"'I like the teacher' is not a reason for 'The teacher is kind'. If you wanted to say 'Because the teacher is kind, I like them' you should say 先生はやさしいですから、すきです。\n" +
 "next_step: Try revising the sentence you just wrote as 先生はやさしいですから、すきです。\n\n" +
 
 "Input: しゅくだいがたくさんあるますから、たいへんです。\n" +
