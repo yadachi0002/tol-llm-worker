@@ -98,8 +98,7 @@ export default {
 "- Use natural, beginner-level Japanese.\n\n" +
 
 "Step 4 (criteria feedback):\n" +
-"- Provide feedback for each criteria that was NOT met.\n" +
-"- If the criteria was met, just indicate that it was met, no feedback is necessary.\n" +
+"- Provide feedback for each criteria.\n" +
 "- Each criterion must appear once.\n" +
 "- Do NOT repeat the \"perhaps you meant\" sentence here.\n\n" +
 
