@@ -85,7 +85,7 @@ export default {
 
 "Step 1: Evaluate the learner sentence using ALL FOUR criteria:\n" +
 "  1) The reason marker から is used appropriately. The reason is marked with から, followed by the situation.\n" +
-"  2) Verbs and adjectives are conjugated correctly in the です／ます form.\n" +
+"  2) Verbs, adjectives and nouns are conjugated correctly in the です／ます form.\n" +
 "  3) Vocabulary usage is correct.\n" + 
 "  4) Particle usage is correct.\n\n" +
 
