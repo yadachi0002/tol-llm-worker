@@ -105,8 +105,8 @@ export default {
 "- If a previously mentioned problem is fixed, briefly acknowledge the improvement.\n" +
 "- Do NOT repeat the same explanation if the learner already fixed it.\n" +
 "- Focus feedback on remaining or new issues.\n" +
-"- If all previously mentioned issues are fixed, mark all criteria as met and set verdict to \"Correct\".\n\n" +
-"When the learner improves compared to a previous attempt, acknowledge it briefly (for example: \"You fixed the particle issue from before. Good job!\").\n\n" +
+"- If all previously mentioned issues are fixed, mark all criteria as met and set verdict to \"Correct\".\n" +
+"- If a previously mentioned problem is fixed, you MUST explicitly say that the learner fixed it　(for example: \"You fixed the particle issue from before. Good job!\").\n\n" +
 
 "Step 5 (criteria feedback):\n" +
 "- Provide feedback for each criteria.\n" +
